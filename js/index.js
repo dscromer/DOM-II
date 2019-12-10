@@ -26,3 +26,29 @@ busImg.addEventListener('mouseleave', (event) => {
      funBus.style.transform = 'scale(1.5)';
      funBus.style.transition = 'all 2s';
  })
+
+ const stopTheLink = document.querySelectorAll('.nav-link')
+
+ stopTheLink[0].addEventListener('click', (e) => {
+     if (true === false) {
+         event.preventDefault();
+     }
+ });
+
+ stopTheLink[1].addEventListener('click', (e) => {
+    if (true === false) {
+        event.preventDefault();
+    }
+});
+
+stopTheLink[2].addEventListener('click', (e) => {
+    if (true === false) {
+        event.preventDefault();
+    }
+});
+
+stopTheLink[3].addEventListener('click', (e) => {
+    if (true === false) {
+        event.preventDefault();
+    }
+});
