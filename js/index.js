@@ -14,10 +14,16 @@ busImg.addEventListener('mouseleave', (event) => {
 
  topImg[0].addEventListener('dblclick', (event) => {
     topImg[0].setAttribute('style', 'border: 3px solid black');
+    event.stopPropagation();
  });
 
  topImg[1].addEventListener('click', () => {
     textContent[1].setAttribute('style', 'color: white; background-color: black;')
+ });
+
+ const textSection = document.querySelector('.content-section')
+    textSection.addEventListener('dblclick', (event) => {
+    textSection.setAttribute('style', 'border: 3px solid black');
  });
 
  const funBus = document.querySelector('.logo-heading');
