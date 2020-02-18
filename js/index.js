@@ -1,4 +1,4 @@
-// Your code goes here
+// Your code goes here.
 const busImg = document.querySelector('.intro img');
 busImg.addEventListener('mouseenter', (event) => {
     busImg.style.transform = "scale(1.2)";
